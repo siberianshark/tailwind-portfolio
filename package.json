@@ -1,0 +1,19 @@
+{
+  "name": "b",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss build -i ./src/tailwind.css -o ./public/tailwind.css"
+    
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.0.4",
+    "install": "^0.13.0",
+    "npm": "^11.1.0",
+    "tailwindcss": "^4.0.4"
+  }
+}
